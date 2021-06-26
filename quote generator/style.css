@@ -1,0 +1,11 @@
+html{
+    /* prevents pading from increasing the vw more than 100% and creating a horizontal scroll bar */
+    box-sizing: border-box; 
+}
+
+body{
+    
+    margin: 0;
+    /* vh - atleast the entire browser viewport height */
+    min-height: 100vh;
+}
